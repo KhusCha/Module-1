@@ -1,0 +1,31 @@
+package uni.codingNinja.module1;
+
+
+import java.util.Scanner;
+
+
+public class Solution {
+    
+    public static void main(String[] args) {
+        
+        
+         Scanner s=new Scanner(System.in);
+	       
+	       int i = s.nextInt();
+	       int f=i;
+	       
+
+	       for(i=2;i<f;i++)
+
+	       {
+
+	       if(f%i==0) {
+
+	            System.out.print(i+" ");
+
+	       } 
+
+	       }    // for closing
+        
+    }
+}
