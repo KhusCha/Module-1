@@ -1,0 +1,36 @@
+package uni.codingNinja.module1;
+
+
+import java.util.Scanner;
+
+
+public class CodingNinja {
+	
+	public static void main(String[] args) {
+	
+
+           Scanner s=new Scanner(System.in);
+	       int n = s.nextInt();
+	       int m=n;
+	       
+	       int evenSum =0;
+	       int oddSum =0;
+	       int rem;
+	       
+	      while(m>0) {
+	    	 
+	    	  rem=m%10;
+	    	  m=m/10;
+	    	  if(rem%2==0) 
+	    		  
+	    		  evenSum = evenSum+rem;
+	    	  if(rem%2!=0) 
+	    		  oddSum = oddSum+rem;
+	    	  
+	    	 
+	    	  
+	       }
+	       
+	      System.out.println(evenSum+" "+oddSum);
+	}
+}
