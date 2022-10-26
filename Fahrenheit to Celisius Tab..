@@ -1,0 +1,33 @@
+package uni.codingNinja.module1;
+
+import java.util.Scanner;
+public class CodingNinja {
+
+
+	public static void main(String[] args) {
+		
+		
+
+        int  S ,E , W=0, C1 ;
+
+	       Scanner s=new Scanner(System.in);
+
+	       S=s.nextInt();
+
+	       E=s.nextInt();
+
+	       W=s.nextInt();
+
+	       while(S<=E ) {
+
+	            C1=((5*(S-32))/9);
+
+	         System.out.println(S+" "+C1);
+
+	        S=S+W;
+	        		
+           }
+		
+	}
+
+}
